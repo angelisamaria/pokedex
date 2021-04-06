@@ -1,6 +1,8 @@
 # Pokedex with React
 Taken from this blog post: [Let’s Build a Pokedex with React](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
 
+![Alt Text](src/assets/ss.png)
+
 # To run this app
 * Confirm your Node version > 6, otherwise you can use [nvm](https://github.com/nvm-sh/nvm) to install the latest version of node 
 * Clone this repository

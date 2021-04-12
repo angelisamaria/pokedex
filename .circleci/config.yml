@@ -1,0 +1,12 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/node
+    steps:
+      - checkout
+      - run : node --version
+workflows:
+  wf:
+    jobs:
+      - build

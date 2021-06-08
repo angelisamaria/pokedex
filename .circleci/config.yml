@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build:
+  buildit:
     docker:
       - image: circleci/node:latest
     steps:
@@ -9,4 +9,4 @@ jobs:
 workflows:
   wf:
     jobs:
-      - build
+      - buildit
